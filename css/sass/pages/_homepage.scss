@@ -1,0 +1,110 @@
+// slider
+
+.slider{
+    blockquote{
+        font-size: 20px;
+        line-height: 1.7;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        color: #5e5e5e;
+        width: 80%;
+        margin: 30px auto;
+
+    }
+    img{
+        max-width: 100%;
+        margin-left: 10%;
+
+
+    }
+    .bullets{
+        text-align: center;
+
+        li{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border:  2px solid grey;
+            cursor: pointer;
+            &.active,&:hover{
+                border:  2px solid #333;
+                background-color: #fff;
+            }
+
+        }
+    }
+}
+
+// end slider
+
+
+//  services
+.services{
+    .services-box{
+        float: left;
+        width: (90% / 3);
+        &:not(:last-of-type){
+            padding-right: 20px;
+        }
+        .service-title{
+            color: #666;
+            i{
+                font-size: 35px;
+                position: relative;
+                top: 4px;
+
+
+            }
+        }
+        .service-desc{
+            color: #777;
+            line-height: 1.2;
+
+        }
+        .link{
+            color: green;
+            text-decoration: none;
+
+        }
+    }
+}
+
+
+// our players
+.our-players{
+    .players-box{
+        float: left;
+        width: (90% / 5);
+        &:not(:last-of-type){
+            margin-right:3% ;
+        }
+
+        }
+
+        .players-img{
+
+            width: 100%;
+            height: 100%;
+
+        }
+        .players-title{
+            color: #666;
+            font-weight: normal;
+            span{
+                font-weight: bold;
+
+            }
+        }
+        .players-desc{
+            color: #777;
+            line-height: 1.2;
+
+        }
+        .link{
+            color: green;
+            text-decoration: none;
+
+        }
+    }
